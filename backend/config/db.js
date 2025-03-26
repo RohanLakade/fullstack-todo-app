@@ -1,5 +1,6 @@
 const mysql = require("mysql2/promise");
 const dotenv = require("dotenv");
+const fs = require('fs');
 
 dotenv.config();
 
@@ -13,7 +14,10 @@ const db = mysql.createPool({
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
-  ssl: { rejectUnauthorized: true },
+  ssl: {
+    rejectUnauthorized: true,
+    ca: fs.readFileSync("./certs/ca.pem"), // Load the CA certificate
+  },
 });
 
 (async () => {
