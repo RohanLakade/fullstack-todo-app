@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: fullstack-todo-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DB_HOST
+      - key: DB_USER
+      - key: DB_PASS
+      - key: DB_NAME
