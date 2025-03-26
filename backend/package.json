@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Demo Todo App Backend Example",
+  "description": "Fullstack Todo App Backend",
   "license": "ISC",
   "author": "Rohan Lakade",
   "type": "commonjs",
