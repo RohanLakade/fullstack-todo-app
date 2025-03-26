@@ -1,5 +1,4 @@
 # Ignore Node.js dependencies
-node_modules/
 **/node_modules/
 
 # Ignore build files (React & Backend production build)
@@ -7,11 +6,9 @@ node_modules/
 **/dist/
 
 # Ignore all environment files (Sensitive credentials)
-.env*
 **/.env*
 
 # Ignore logs and temporary files
-logs/
 **/logs/
 *.log
 npm-debug.log*
