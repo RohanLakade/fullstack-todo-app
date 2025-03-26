@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1.125rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+
+p,
+span,
+div,
+a {
+  font-size: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 13px;
+}
+
+body {
+  min-width: 320px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 576px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}

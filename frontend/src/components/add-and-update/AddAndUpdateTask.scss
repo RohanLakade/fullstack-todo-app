@@ -1,0 +1,27 @@
+.task-form {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  form {
+    width: 90%;
+    background-color: #f4f4f4;
+
+    .actions {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      padding: 0.5rem;
+      .btn {
+        width: 160px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .task-form {
+    form {
+      width: 60%;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.btn {
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-transform: capitalize;
+  border: 1px solid #000;
+  outline: none;
+  box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.8);
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &.primary,
+  &.danger,
+  &.success,
+  &.brand-color {
+    color: #fff !important;
+  }
+
+  &.primary {
+    background-color: #4e7fcf !important;
+  }
+  &.danger {
+    background-color: #de5656 !important;
+  }
+  &.success {
+    background-color: #00d11f !important;
+  }
+  &.brand-color {
+    background-color: #00abab !important;
+  }
+
+  &:disabled {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+    border: none !important;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+
+    .text {
+      margin: 0 0.125rem;
+    }
+
+    .icon {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}

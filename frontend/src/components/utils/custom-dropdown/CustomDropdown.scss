@@ -1,0 +1,38 @@
+.dropdown {
+  position: relative;
+  width: 200px;
+  z-index: 1;
+}
+
+.dropdown-selected {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #999;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+.selected {
+  font-weight: bold;
+}

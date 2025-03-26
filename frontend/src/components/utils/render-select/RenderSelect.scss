@@ -1,0 +1,18 @@
+select {
+  appearance: none;
+  min-width: 5rem;
+  text-align: center;
+  text-align-last: center;
+  padding: 0.25rem 0;
+  font-size: 0.875rem;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.125);
+  border: 0;
+  outline: none;
+  border-radius: 0.25rem;
+  border: 1px solid #000;
+
+  option {
+    text-align: center;
+    text-align-last: center;
+  }
+}
