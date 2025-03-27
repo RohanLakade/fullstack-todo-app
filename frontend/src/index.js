@@ -20,7 +20,7 @@ root.render(
   <React.StrictMode>
     <AuthProvider>
       <ThemeProvider>
-        <BrowserRouter basename={"fullstack-todo-app"}>
+        <BrowserRouter basename={process.env.PUBLIC_URL || "/"}>
           <App />
         </BrowserRouter>
       </ThemeProvider>
