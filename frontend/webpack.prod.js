@@ -17,7 +17,6 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"], // Allows importing files without specifying extensions
     alias: {
-      "@src": path.resolve(__dirname, "src/"),
       "@components": path.resolve(__dirname, "src/components/"),
       "@componentUtils": path.resolve(__dirname, "src/components/utils"),
       "@context": path.resolve(__dirname, "src/context"),
