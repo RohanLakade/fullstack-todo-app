@@ -18,6 +18,11 @@ app.use(
   })
 );
 
+// Base route to check if the server is running
+app.get("/", (req, res) => {
+  res.json({ message: "Connected and working!" });
+});
+
 const routes = {
   "/api/auth": authRoutes,
   "/api/user": userRoutes,
