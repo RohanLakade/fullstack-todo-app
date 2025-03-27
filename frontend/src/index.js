@@ -20,7 +20,7 @@ root.render(
   <React.StrictMode>
     <AuthProvider>
       <ThemeProvider>
-        <BrowserRouter basename={"fullstack-todo-app/frontend"}>
+        <BrowserRouter basename={"fullstack-todo-app"}>
           <App />
         </BrowserRouter>
       </ThemeProvider>

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rohanlakade.github.io/fullstack-todo-app/frontend",
+  "homepage": "https://rohanlakade.github.io/fullstack-todo-app/",
   "name": "frontend",
   "version": "1.0.0",
   "description": "Fullstack Todo App using React js (Webpack), Node js, Mysql",

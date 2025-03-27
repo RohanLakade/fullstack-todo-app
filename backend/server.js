@@ -9,7 +9,10 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://rohanlakade.github.io/fullstack-todo-app/frontend"],
+    origin: [
+      "http://localhost:3000",
+      "https://rohanlakade.github.io/fullstack-todo-app",
+    ],
     methods: "GET,POST,PUT,PATCH,DELETE",
     credentials: true,
   })
