@@ -11,7 +11,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://rohanlakade.github.io/fullstack-todo-app",
+      "https://fullstack-todo-app-zeta.vercel.app/",
     ],
     methods: "GET,POST,PUT,PATCH,DELETE",
     credentials: true,
