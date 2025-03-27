@@ -88,7 +88,13 @@ module.exports = {
       filename: "css/[name].[contenthash].css", // 🔹 Extracted CSS with cache busting
     }),
     new Dotenv({
-      systemvars: true, // Allows access to Vercel & GitHub Actions environment variables
+      path:
+        process.env.DEPLOY_ENV === "github"
+          ? "./.env.github"
+          : process.env.DEPLOY_ENV === "vercel"
+          ? "./.env.vercel"
+          : "./.env.local",
+      systemvars: true,
     }),
   ],
 };
